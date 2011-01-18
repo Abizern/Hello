@@ -10,9 +10,15 @@
 @implementation HelloAppDelegate
 
 @synthesize window;
+@synthesize helloField;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-	// Insert code here to initialize your application 
+	[helloField setStringValue:@""]; 
+}
+
+- (IBAction)sayHello:(id)sender {
+    [helloField setStringValue:@"Hello World!"];
+    [sender setEnabled:NO];
 }
 
 @end

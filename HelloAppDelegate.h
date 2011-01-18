@@ -12,5 +12,8 @@
 }
 
 @property (assign) IBOutlet NSWindow *window;
+@property (assign) IBOutlet NSTextField *helloField;
+
+- (IBAction)sayHello:(id)sender;
 
 @end
