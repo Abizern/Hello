@@ -9,6 +9,7 @@
 
 @interface HelloAppDelegate : NSObject <NSApplicationDelegate> {
     NSWindow *window;
+    NSTextField *helloField;
 }
 
 @property (assign) IBOutlet NSWindow *window;
