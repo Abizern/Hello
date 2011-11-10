@@ -1,0 +1,3 @@
+[submodule "JustTesting"]
+	path = JustTesting
+	url = git://github.com/Abizern/JustTesting.git
