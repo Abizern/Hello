@@ -7,13 +7,13 @@ The public key has been added as a blob and tagged with the tag `pubkey`
 
 To get the key into your own keyring do:
 
-  $ git cat-file blob pubkey | gpg --import
+    $ git cat-file blob pubkey | gpg --import
 
 To verify the tags do:
 
-  $ git tag -v <tag-to-be-verified>
+    $ git tag -v <tag-to-be-verified>
 
 e.g
 
-  $ git tag -v v1.0
+    $ git tag -v v1.0
 
